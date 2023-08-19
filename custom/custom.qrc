@@ -1,0 +1,66 @@
+<RCC>
+    <qresource prefix="custom/img">
+        <file alias="altitude.svg">res/Images/altitude.svg</file>
+        <file alias="attitude_crosshair.svg">res/Images/attitude_crosshair.svg</file>
+        <file alias="attitude_dial.svg">res/Images/attitude_dial.svg</file>
+        <file alias="attitude_pointer.svg">res/Images/attitude_pointer.svg</file>
+        <file alias="chronometer.svg">res/Images/chronometer.svg</file>
+        <file alias="compass_needle.svg">res/Images/compass_needle.svg</file>
+        <file alias="compass_pointer.svg">res/Images/compass_pointer.svg</file>
+        <file alias="distance.svg">res/Images/distance.svg</file>
+        <file alias="horizontal_speed.svg">res/Images/horizontal_speed.svg</file>
+        <file alias="microSD.svg">res/Images/microSD.svg</file>
+        <file alias="odometer.svg">res/Images/odometer.svg</file>
+        <file alias="vertical_speed.svg">res/Images/vertical_speed.svg</file>
+        <file alias="CustomAppIcon.png">res/Images/CustomAppIcon.png</file>
+    </qresource>
+    <qresource prefix="/res/">
+        <file alias="QGCLogoBlack">res/Images/QGCLogoBlack.svg</file>
+		<file alias="QGCLogoFull">res/Images/QGCLogoFull.svg</file>
+        <file alias="QGCLogoWhite">res/Images/QGCLogoWhite.svg</file>
+        <file alias="QGCLogoArrow">res/Images/QGCLogoArrow.svg</file>
+    </qresource>
+    <qresource prefix="/qmlimages">
+	<file alias="PaperPlane.svg">res/Images/CustomVehicleIcon.svg</file>
+    </qresource>
+    <qresource prefix="/InstrumentValueIcons">
+        <file alias="cloud-exclamation.svg">res/Images/cloud-exclamation.svg</file>
+    </qresource>
+    <qresource prefix="Custom/Widgets">
+        <file alias="Custom/Widgets/CustomArtificialHorizon.qml">res/Custom/Widgets/CustomArtificialHorizon.qml</file>
+        <file alias="Custom/Widgets/CustomAttitudeWidget.qml">res/Custom/Widgets/CustomAttitudeWidget.qml</file>
+        <file alias="Custom/Widgets/CustomIconButton.qml">res/Custom/Widgets/CustomIconButton.qml</file>
+        <file alias="Custom/Widgets/CustomOnOffSwitch.qml">res/Custom/Widgets/CustomOnOffSwitch.qml</file>
+        <file alias="Custom/Widgets/CustomQuickButton.qml">res/Custom/Widgets/CustomQuickButton.qml</file>
+        <file alias="Custom/Widgets/CustomSignalStrength.qml">res/Custom/Widgets/CustomSignalStrength.qml</file>
+        <file alias="Custom/Widgets/CustomToolBarButton.qml">res/Custom/Widgets/CustomToolBarButton.qml</file>
+        <file alias="Custom/Widgets/CustomVehicleButton.qml">res/Custom/Widgets/CustomVehicleButton.qml</file>
+        <file alias="Custom/Widgets/qmldir">res/Custom/Widgets/qmldir</file>
+    </qresource>
+    <qresource prefix="/usernameList">
+        <file alias="username.csv">res/username.csv</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file alias="QGroundControl/FlightDisplay/FlyViewCustomLayer.qml">res/CustomFlyViewOverlay.qml</file>
+        <file alias="QGroundControl/FlightMap/MapScale.qml">res/CustomMapScale.qml</file>
+        <file alias="QGroundControl/Controls/QGCButton.qml">res/CustomQGCButton.qml</file>
+        <file alias="QGroundControl/Controls/MainStatusIndicator.qml">res/CustomMainStatusIndicator.qml</file>
+        <file alias="QGroundControl/Controls/MainToolBar.qml">res/CustomMainToolBar.qml</file>
+        <!-- <file alias="QGroundControl/Controls/QGCPopupDialogContainer.qml">res/CustomQGCPopupDialogContainer.qml</file> -->
+        <file alias="PreFlightCheckList.qml">res/CustomPreFlightCheckList.qml</file>
+        <file alias="QGroundControl/FlightDisplay/PreFlightCheckListShowAction.qml">res/CustomPreFlightCheckListShowAction.qml</file>
+        <file alias="QGroundControl/Controls/PreFlightCheckButton.qml">res/CustomPreFlightCheckButton.qml</file>
+        <file alias="QGroundControl/Controls/PreFlightCheckModel.qml">res/CustomPreFlightCheckModel.qml</file>
+        <file alias="MainRootWindow.qml">res/CustomMainRootWindow.qml</file>
+    </qresource>
+    <qresource prefix="/toolbar">
+        <!-- <file alias="FlightInformation.qml">res/FlightInformation.qml</file> -->
+        <!-- <file alias="MoreFlightInformation.qml">res/MoreFlightInformation.qml</file> -->
+        <!-- <file alias="PayloadIndicator.qml">res/PayloadIndicator.qml</file> -->
+        <file alias="WeatherIndicator.qml">res/WeatherIndicator.qml</file>
+        <!-- <file alias="GPSIndicator.qml">res/CustomGPSIndicator.qml</file> -->
+    </qresource>
+    <qresource prefix="/checklists">
+        <file alias="MultiRotorChecklist.qml">res/CustomMultiRotorChecklist.qml</file>
+    </qresource>
+</RCC>
